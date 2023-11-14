@@ -1,6 +1,3 @@
-<<<<<<< HEAD
 cat derbi.txt | sed 's/ /_/g' | sed 's/,/ /g' | awk '{print $3, $4, $5}' | grep Valencia | sort -k3 | awk '{print $3, $2}' > valencia.txt
 cat derbi.txt | sed 's/ /_/g' | sed 's/,/ /g' | awk '{print $3, $4, $5}' | grep empate | sort -k3 | awk '{print $3, $2}' > empate.txt
-=======
 cat derbi.txt | sed 's/ /_/g' | sed 's/,/ /g' | awk '{print $3, $4, $5}' | grep levante | sort -k3 | awk '{print $3, $2}' >levante.txt
->>>>>>> levante
